@@ -27,7 +27,7 @@ pyhive==0.5.1
 python-dateutil==2.6.1
 python-geohash==0.8.5
 pyyaml==3.12
-requests==2.18.4
+requests==2.20
 simplejson==3.13.2
 six==1.11.0
 sqlalchemy==1.2.2
@@ -39,3 +39,4 @@ unicodecsv==0.14.1
 unidecode==1.0.22
 contextlib2==0.5.5
 
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
