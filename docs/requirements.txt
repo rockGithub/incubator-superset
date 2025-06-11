@@ -1,3 +1,4 @@
 sphinx==1.7.1
 sphinx-rtd-theme==0.2.4
 sphinxcontrib.youtube==0.1.2
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
